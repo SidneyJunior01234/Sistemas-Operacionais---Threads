@@ -7,3 +7,5 @@ Esse projeto tem o objetivo de realizar simulações da memória cache utilizand
 O programa inicial, que será a thread mãe, deverá realizar a leitura de um arquivo texto (nomeado enderecos.dat) e salvar suas informações em uma estrutura de dados adequada para o problema. Os dados lidos são, para efeitos de simulação de cache, uma listagem de endereços de uma memória de 16 K posições, os quais são acessados para operações de leitura. Estando, então, a thread mãe, com a estrutura de dados que representa os endereços, ela deve lançar quatro threads em que, cada uma, realizará uma simulação de cache diferente. As simulações e especificações são:
 
 ![Funcionamento do projeto](https://user-images.githubusercontent.com/50020838/203453264-3ae6d521-d942-462f-90f8-fe6a4b5d6121.png)
+
+A execução das threads deve, basicamente, realizar a contagem de acertos e falhas e, no final, antes de seu encerramento, exibir em tela as estatísticas obtidas (percentual de acertos e também de falhas).
